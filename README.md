@@ -1,4 +1,4 @@
-🌿 Contemplation Companion is a web application designed for artist and creatives to overcome creative blocks. 
+🌿  The Contemplation Companion is a web application designed for artist and creatives to overcome creative blocks. 
 By connecting to real-time weather data, the app generates tailored prompts that ground you in your surroundings, helping you shift into a contemplative flow state.
 
 ✨ Features
