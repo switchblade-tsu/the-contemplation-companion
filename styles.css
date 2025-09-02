@@ -1,0 +1,400 @@
+body {
+    font-family: Impact, Haettenschweiler;
+    background-image: url('https://images.unsplash.com/photo-1526779259212-939e64788e3c?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    color: #d6cece;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.800);
+}
+nav {
+    background-color: rgba(44, 62, 80, 0.649);
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;    
+    text-align: center;
+    color: #c3cdd5;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.800); 
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.834);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(44, 62, 80, 0.649);
+ 
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   /* Add this line */
+    height: 100%;              /* Add this line */
+    margin-top: 0;             /* Remove or set to 0 */
+}
+.button-group {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0 0 0; /* Only top margin */
+}
+h1:hover {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    transition: transform 0.5s ease;
+    transform: scale(1.05);
+}
+.center-input {
+    display: flex;
+    justify-content: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+ 
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    height: 40px;
+
+}
+a {
+    color: #9cbdd3;
+    text-decoration: none;
+}
+a:hover {
+    color: #f2b77c;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+    color:#8fa5b4
+}
+button {
+    background-color: #2c3e5083;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.834);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover {
+    background-color: #3498db;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+ul#Promts {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul#Promts li {
+    display: block; /* or flex if you want to align with buttons */
+    text-align: left;
+    max-width: 90vw; /* or a fixed width */
+    word-break: break-word;
+    background-color:;
+    color: #d6cece;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+ul#Promts li:hover {
+    background-color: #3a6b5c;
+}
+ul#Promts li a {
+    color: #d6cece;
+    text-decoration: none;
+}
+ul#Promts li a:hover {
+    color: #f2b77c;
+
+}
+
+ul#results {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0.800);
+}
+ul#results li {
+    background-color:;
+    color: #d6cece;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    text-shadow: 3px 3px 4px rgb(0, 0, 0.800);
+    margin: 5px 0;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; /* or flex-start for left alignment */
+}
+
+/* Optional: Make small buttons inside lists look better */
+ul#results li button, ul#Promts li button {
+    width: auto;
+    min-width: 60px;
+    margin-left: 15px;
+    font-size: 12px;
+    padding: 5px 10px;
+    box-shadow: none;
+    text-shadow: none;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.p {
+    font-size: x-large;
+    line-height: 1.5;
+    color: #d6cece; 
+    margin: 10px 0;
+    text-align: center;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0.800);
+   
+    padding: 10px;
+    
+   
+}
+
+li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #d6cece;
+    text-shadow: 3px 3px 4px rgb(0, 0, 0.800);
+}
+
+
+.get-prompt-button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#prompt-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+#prompt-input input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    height: 40px;
+}
+#prompt-input button {
+    background-color: #2c3e5083;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.834);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#prompt-input button:hover {
+    background-color: #3498db;
+}
+#prompt-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#prompt-input-container button {
+    background-color: #2c3e5083;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;     
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.834);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prompt-input-container button:hover {
+    background-color: #3498db;
+}
+#prompt-input-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    height: 40px;
+}
+#prompt-input-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;     
+    height: 40px;
+}   
+#prompt-input-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    height: 40px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 5px;
+        font-size: 1em;
+    }
+    nav {
+        font-size: medium;
+        flex-direction: column;
+        padding: 5px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 8px 0;
+    }
+    h1 {
+        font-size: 2em;
+        padding: 5px;
+    }
+    .main-content {
+        padding: 5px;
+        height: auto;
+    }
+    .button-group {
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0 0 0;
+    }
+    input[type="text"], input[type="email"], textarea,
+    #prompt-input-container input[type="text"] {
+        width: 90vw;
+        min-width: 0;
+        font-size: 1em;
+        margin-right: 0;
+    }
+    button, #prompt-input-container button, #prompt-input button {
+        width: 90vw;
+        min-width: 0;
+        font-size: 1em;
+        margin: 8px 0;
+        padding: 10px;
+    }
+    ul#Promts li, ul#results li {
+        max-width: 95vw;
+        font-size: 1em;
+        padding: 8px 10px;
+    }
+}
+
