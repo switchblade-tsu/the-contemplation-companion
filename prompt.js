@@ -94,7 +94,6 @@ const randomPrompt = prompts[Math.floor(Math.random() * prompts.length)];
   promptInput.value = randomPrompt;
   
   const listItem = document.createElement('li');
-  listItem.innerHtml = "";
   
   listItem.textContent = randomPrompt;
   promptList.appendChild(listItem);
@@ -120,7 +119,7 @@ const randomPrompt = prompts[Math.floor(Math.random() * prompts.length)];
 function generateWeatherPrompt(weatherType) {
   const prompts = {
     rain: ["Write about a conversation overheard between raindrops hitting your window.","Describe a memory that the sound of rain brings back to you." ,"The rain is washing away a secret. What is it?", "Write a letter to someone you miss, with the rain as your backdrop."],
-    clear: ["Write about a perfect day under a clear sky.","Describe the feeling of warmth on your skin during a sunny afternoon.", "Write about the shadows cast by the sun in your surroundings." ,"Describe the perfect day that starts with this weather.", "Imagine the lives happeining under the same clear sky across the world right now"],
+    clear: ["Write about a perfect day under a clear sky.","Describe the feeling of warmth on your skin during a sunny afternoon.", "Write about the shadows cast by the sun in your surroundings." ,"Describe the perfect day that starts with this weather.", "Imagine the lives happening under the same clear sky across the world right now"],
     clouds: ["If these clouds could talk, what would they say?","Describe the shapes you see in the clouds above you.","Write about a time when the clouds changed your mood.", "Imagine a world where clouds are made of something other than water.", "Write a story about a character who finds a secret in the clouds."],
     snow: ["Describe the sound of snow crunching underfoot.","Write about a childhood memory involving snow.","Imagine a world where it never stops snowing.", "Write about the first snowfall of the year and its impact on you.", "Describe the beauty of a snow-covered landscape at dawn."],
     Thunderstorm: ["Write about the power of a thunderstorm and how it makes you feel.","Describe the smell of rain before a storm hits.","Imagine a character who finds shelter during a thunderstorm and what they discover there.", "Write about the calm before the storm.", "Describe the chaos that ensues during a sudden thunderstorm."],
